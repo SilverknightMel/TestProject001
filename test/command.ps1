@@ -7,3 +7,5 @@ az vm create `
     --image Win2019Datacenter `
     --public-ip-sku Standard `
     --admin-username azureuser
+
+az group create -l australiaeast -n IaaSExample-rg01
